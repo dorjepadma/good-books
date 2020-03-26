@@ -26,7 +26,6 @@ describe('comment routes', () => {
   });
 
   it('gets a comment by id', async() => {
-    // const book = await getBook();
     const comment = await getComment();
 
     return request(app)
