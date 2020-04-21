@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<!-- This puts in all the required styles, scripts, ... -->
+		<% this.foundation({protoblast: true}) %>
+		<% style('website') %>
+	</head>
+	<body>
+		<!-- This is a block you can assign content to -->
+		<he-block data-he-name="base"></he-block>
+
+		<!-- This is an internal element you should not worry about -->
+		<he-bottom></he-bottom>
+	</body>
+</html>

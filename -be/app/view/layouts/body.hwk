@@ -1,0 +1,5 @@
+<% expands('layouts/base') %>
+
+<% start('base') %>
+	<he-block data-he-name="main"></he-block>
+<% end('base') %>
